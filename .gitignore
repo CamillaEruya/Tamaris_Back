@@ -1,0 +1,34 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python e arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.temp
+*.log
+
+# Arquivos locais e credenciais
+.env
+.env.*
+!.env.example
+secrets.toml
+*.pem
+*.key
+
+# Planilhas importadas podem conter dados sensíveis
+*.xlsx
+data/*
+!data/.gitkeep
+
+# Configurações locais de editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
